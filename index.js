@@ -18,8 +18,8 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://admin-liart-iota.vercel.app",
-    "https://frontend2-blush-ten.vercel.app"
+    "https://prescripto--frontend.vercel.app",
+    "https://prescripto--admin.vercel.app"
   ],
   credentials: true,
 }));
