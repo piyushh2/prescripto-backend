@@ -17,10 +17,8 @@ connectCloudinary();
 app.use(express.json());
 app.use(cors({
   origin: [
-    "https://prescripto-frontend-kohl.vercel.app",
-    "https://prescripto-brown.vercel.app",
-    "http://localhost:5173",
-    "https://frontend-ashy-seven-28.vercel.app"
+    "http://localhost:5173/",
+    "https://frontend-ashy-seven-28.vercel.app/"
   ],
   credentials: true,
 }));
