@@ -18,10 +18,12 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://frontend-ashy-seven-28.vercel.app"
+    "https://frontend-ashy-seven-28.vercel.app",
+    "https://frontend2-blush-ten.vercel.app" // ✅ Add this
   ],
   credentials: true,
 }));
+
 // app.options('*', cors());
 
 // api endpoints
