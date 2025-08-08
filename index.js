@@ -22,7 +22,7 @@ app.use(cors({
   ],
   credentials: true,
 }));
-app.options('*', cors());
+// app.options('*', cors());
 
 // api endpoints
 app.use('/api/admin', adminRouter);
